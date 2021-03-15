@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .container{
+    width: 100%;
+    margin: auto;
+  }
+  body{
+    font-family: Helvetica, sans-serif;
+    background: #fff;
+    line-height: 1.6;
+  }
+  #header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1em;
+    position: fixed;
+    width: 100%; 
+    margin:auto;
+    color: white;
+    background: black;
+    opacity: 0.6;
+    #logo:hover{
+      color: #b01e63;
+    }
+    #nav-links{
+      display: flex;
+      justify-content: space-around;
+      width: 40%;
+      list-style: none; 
+      a{
+        color: white;
+        text-decoration: none;
+      }
+      a:hover{
+        color: #b01e63;
+      }
+    }
+    button{
+      padding: 1em 1.5em;
+      background: transparent;
+      border: white 2px solid;
+      color: white;
+    }
+    button:hover{
+      background: #b01e63;
+      transition: 0.3s ease-in;
+    }
+  }
+  
+  #main{
+    background: url('https://images.unsplash.com/photo-1545569341-9eb8b30979d9?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h1{
+      font-size: 60px;
+      color: white;
+    }
+    p{
+      color: white;
+    }
+  }
+  
+  #section{
+    #about{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 3.5em;
+      .article-abt{
+        padding: 3em;
+      }
+      img{
+        width: 100%;
+      }
+    }
+    #cards{
+      display: flex;
+      justify-content: space-around;
+      img{
+        width: 100%;
+      }
+      .card{
+        padding: 3em;
+      }
+    }
+  }
+  
+  #footer{
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2em;
+    
+    #social-link{
+      list-style: none;
+      a{
+        text-decoration: none;
+        color: white;
+      }
+      a:hover{
+        color: #b01e63;
+      }
+    }
+  }
