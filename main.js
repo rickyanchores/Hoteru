@@ -9,3 +9,8 @@ logo.addEventListener('click', () => {
   footer.style.background = "grey";
   footer.style.color = "#333";
 })
+
+
+//AOS 
+AOS.init();
+  
