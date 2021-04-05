@@ -1,3 +1,5 @@
+@import './Nav';
+
 *{
     padding: 0;
     margin: 0;
@@ -12,44 +14,7 @@
     background: #fff;
     line-height: 1.6;
   }
-  #header{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 1em;
-    position: fixed;
-    width: 100%; 
-    margin:auto;
-    color: white;
-    background: black;
-    opacity: 0.6;
-    #logo:hover{
-      color: #b01e63;
-    }
-    #nav-links{
-      display: flex;
-      justify-content: space-around;
-      width: 40%;
-      list-style: none; 
-      a{
-        color: white;
-        text-decoration: none;
-      }
-      a:hover{
-        color: #b01e63;
-      }
-    }
-    button{
-      padding: 1em 1.5em;
-      background: transparent;
-      border: white 2px solid;
-      color: white;
-    }
-    button:hover{
-      background: #b01e63;
-      transition: 0.3s ease-in;
-    }
-  }
+
   
   #main{
     background: url('https://images.unsplash.com/photo-1545569341-9eb8b30979d9?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80');
